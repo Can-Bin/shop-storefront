@@ -10,7 +10,6 @@ function App() {
   const size = useWindowSize()
 
   return (
-    
     <div>
       {
       size.width > 425 ? (
