@@ -1,0 +1,53 @@
+.title{
+    width: 500px;
+    height: 291px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 229px 96px 96px 124px ;
+}
+.text{
+    font-family: 'ITC Avant Garde Gothic Std Book', sans-serif;
+    font-style: bold;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 57px;   
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 47px;
+    background-color: black;
+    color: white;
+    padding: 14px;
+    margin-top: 40px;
+}
+
+.btn-text{
+    font-family: 'Avenir';
+    font-style: light;
+    font-weight: 400;
+    font-size: 12.8px;
+    letter-spacing: 1px;
+    margin-right: 5px;
+}
+
+@media screen and (max-width: 425px){
+    .title{
+        width: 80%;
+        margin: 2rem;
+    }
+
+    .text{
+        font-size: 2rem;
+        line-height: 2rem; 
+    }
+
+    .btn{
+        margin-top: 0;
+    }
+}
+

@@ -1,0 +1,20 @@
+.model{
+    width: 600px;
+    height: 684px;
+    margin: 96px 64px 160px 56px;
+}
+
+@media screen and (max-width: 425px){
+    .model{
+      margin: 0;
+      width: 20rem;
+      height: 20rem;
+    }
+
+    .model img{
+      width: 20rem;
+      height: 20rem;
+      margin: 0;
+    }
+  
+  }

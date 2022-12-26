@@ -1,0 +1,44 @@
+.description{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 432px;
+    
+}
+
+.desc-text{
+    font-family: 'Avenir', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    color: #666666
+}
+
+.desc-btn{
+    border: none;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+    width: 83px;
+    height: 22px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 32px;
+    background-color: white;
+}
+
+@media screen and (max-width: 425px){
+  .description{
+    width: 80%;
+    margin: 2rem;
+  }
+
+  .desc-btn{
+    width: 30%;
+  }
+
+}
